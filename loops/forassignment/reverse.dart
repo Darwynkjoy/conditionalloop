@@ -1,6 +1,6 @@
 import'dart:io';
 void main(){
-int a=1;
-int b=2;
-print(a);print(b);
+stdout.write("enter your number:");
+int a=int.parse(stdin.readLineSync()!);
+print("reverse of number:${a%10}${a~/10}");
 }
